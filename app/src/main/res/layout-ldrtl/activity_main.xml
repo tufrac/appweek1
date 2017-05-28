@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/marciano"
+    tools:context="com.wibej.app1.MainActivity">
+
+    <TextView
+        android:layout_width="357dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="40sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+</android.support.constraint.ConstraintLayout>
